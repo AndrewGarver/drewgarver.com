@@ -1,10 +1,10 @@
 {
-  "name": "Person or Org",
-  "title": "Global Title",
+  "name": "Drew Garver",
+  "title": "Drew Garver",
   "titleSeperator": "|",
-  "domain": "blank.org",
-  "url": "http://blank.org",
-  "description": "Global Description",
+  "domain": "drewgarver.com",
+  "url": "http://drewgarver.com",
+  "description": "Personal website of Drew Garver",
   "keywords": null,
   "dest": "./www/",
   "src": "./src/",
@@ -17,11 +17,11 @@
   "analytics": {
     "provider": false,
     "google": {
-      "trackingId": "GA-######"
+      "trackingId": null
     }
   },
   "twitter": {
-    "username": "@username"
+    "username": "@radiofutr"
   },
   "facebook": {
     "username": null,

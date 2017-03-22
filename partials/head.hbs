@@ -34,6 +34,6 @@
   {{#unless noMainStyles}}
   <link rel="stylesheet" href="{{assetPath}}{{#if devBuild}}styles/main.css{{else}}{{fingerprint.[styles/main.css]}}{{/if}}">
   {{/unless}}
-  <title>{{#if title}}{{capitalize title}}{{else}}{{capitalize paths.dir}}{{/if}} {{titleSeperator}}{{name}}</title>
+  <title>{{#if title}}{{capitalize title}}{{else}}{{capitalize paths.dir}}{{/if}} {{titleSeperator}} {{name}}</title>
 <!-- {{#if devBuild}}dev{{else}}production{{/if}} v{{version}} -->
 </head>
