@@ -1,7 +1,8 @@
 {
-  "name": "machinist",
+  "name": "drewgarver.com",
   "version": "0.1.0",
-  "description": "A boilerplate for a Metalsmith static site.",
+  "description": "Source for Andrew Garver's personal site",
+  "private": true,
   "main": "index.js",
   "pre-commit": "lint-staged",
   "scripts": {
@@ -20,20 +21,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ianrose@github.com/ianrose/machinist.git"
+    "url": "git+https://github.com/AndrewGarver/drewgarver.com.git"
   },
   "keywords": [
     "metalsmith",
-    "boilerplate",
     "static",
-    "site"
+    "site",
+    "portfolio",
+    "garver"
   ],
-  "author": "Ian Rose",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ianrose/machinist/issues"
-  },
-  "homepage": "https://github.com/ianrose/machinist#readme",
+  "author": "Andrew Garver",
+  "license": "Copyright 2017 Andrew Garver",
   "lint-staged": {
     "*.scss": "style-lint",
     "*.js": "script-lint"
